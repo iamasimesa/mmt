@@ -131,6 +131,7 @@ const ContactPage = {
                     <address>
                       <p>Level 7/80 Dorcas St<br/>Southbank VIC 3006<br/>Australia</p>
                     </address>
+                    <p> Call : +61 2 8730 9043</p>
                     <span class="contact-method-note">Visit us during business hours</span>
                   </div>
                 </div>
