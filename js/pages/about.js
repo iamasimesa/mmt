@@ -1,5 +1,5 @@
 /* ============================================================
-   pages/about.js — About page render (FINAL - NO EMOJIS)
+   pages/about.js — About page 
    ============================================================ */
 
 const AboutPage = {
@@ -152,7 +152,7 @@ Proven capability in logistics coordination and operational execution at scale
             
             <div class="overview-visual reveal reveal-delay-2">
               <div class="visual-card">
-                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=1000&fit=crop" alt="MMT Alliance global operations" loading="lazy" width="800" height="1000">
+                <img src="https://res.cloudinary.com/degxjhrsr/image/upload/q_auto/f_auto/v1775167154/photo-1486406146926-c627a92ad1ab_lobgjf.jpg" alt="MMT Alliance global operations" loading="lazy" width="800" height="1000">
                 <div class="visual-overlay">
                   <div class="visual-stat">
                     <span class="stat-number">End-to-End</span>
@@ -229,7 +229,7 @@ Proven capability in logistics coordination and operational execution at scale
             
             <div class="model-visual reveal reveal-delay-2">
               <div class="visual-card">
-                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=1000&fit=crop" alt="Strategic sourcing and supplier network" loading="lazy" width="800" height="1000">
+                <img src="https://res.cloudinary.com/degxjhrsr/image/upload/q_auto/f_auto/v1775167201/photo-1551434678-e076c223a692_zkloss.jpg" alt="Strategic sourcing and supplier network" loading="lazy" width="800" height="1000">
                 <div class="visual-badge">
                   <span>Asset-Light</span>
                   <span>Scalable</span>
@@ -476,7 +476,7 @@ Proven capability in logistics coordination and operational execution at scale
             
             <div class="governance-visual reveal reveal-delay-2">
               <div class="visual-card">
-                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=1000&fit=crop" alt="Compliance and governance documentation" loading="lazy" width="800" height="1000">
+                <img src="https://res.cloudinary.com/degxjhrsr/image/upload/q_auto/f_auto/v1775167256/photo-1450101499163-c8848c66ca85_jwex9r.jpg" alt="Compliance and governance documentation" loading="lazy" width="800" height="1000">
                 <div class="compliance-badges">
                   <span class="compliance-badge">UN Aligned</span>
                   <span class="compliance-badge">ISO Standards</span>
