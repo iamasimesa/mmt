@@ -672,6 +672,56 @@ const HomePage = {
   </div>
 </section>
 
+<!-- ===== TEAM OVERVIEW ===== -->
+
+<section class="mmt-leadership-home">
+  <div class="mmt-leadership-home__container">
+    <div style="text-align: center;">
+      <span class="mmt-leadership-home__badge">Leadership</span>
+      <h2 class="mmt-leadership-home__title">Experienced Executives</h2>
+      <div class="mmt-leadership-home__underline"></div>
+      <p class="mmt-leadership-home__subtitle">Driving global procurement excellence with integrity and impact through strategic vision and operational expertise.</p>
+    </div>
+    
+    <div class="mmt-leadership-home__wrapper">
+      <div class="mmt-leadership-home__connector"></div>
+      
+      <!-- CEO Card -->
+      <article class="mmt-leadership-card">
+        <div class="mmt-leadership-card__image-wrapper">
+          <div class="mmt-leadership-card__image">
+            <img src="assets/images/team/ryan.webp" alt="Chief Executive Officer" loading="lazy">
+          </div>
+        </div>
+        <h3 class="mmt-leadership-card__name">Ryan Wait</h3>
+        <p class="mmt-leadership-card__role">Chief Executive Officer</p>
+        <p class="mmt-leadership-card__bio">Strategic leader with extensive experience in global supply chain operations and institutional partnerships.</p>
+      </article>
+      
+      <!-- Director Card -->
+      <article class="mmt-leadership-card">
+        <div class="mmt-leadership-card__image-wrapper">
+          <div class="mmt-leadership-card__image">
+            <img src="assets/images/team/abdul.png" alt="Director" loading="lazy">
+          </div>
+        </div>
+        <h3 class="mmt-leadership-card__name">Abdulqadir</h3>
+        <p class="mmt-leadership-card__role">Director</p>
+        <p class="mmt-leadership-card__bio">Oversees operational execution and client relationships across complex humanitarian and government projects.</p>
+      </article>
+    </div>
+  </div>
+<div style="text-align: center; margin-top: 3rem;">
+  <a href="/about#team" class="mmt-btn-outline">
+    View Full Team
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 8px; vertical-align: middle;">
+      <line x1="5" y1="12" x2="19" y2="12"></line>
+      <polyline points="12 5 19 12 12 19"></polyline>
+    </svg>
+  </a>
+</div>
+
+</section>
 
       <!-- ===== NEWS & MEDIA ===== -->
       <section class="section section-news-home" id="news" aria-labelledby="news-heading">

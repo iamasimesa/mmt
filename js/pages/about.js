@@ -4,6 +4,12 @@
 
 const AboutPage = {
   render(container) {
+    // Guard: container must be provided
+    if (!container) {
+      console.error('AboutPage.render(): no container element provided');
+      return;
+    }
+
     container.innerHTML = `
       <!-- ===== SEO SCHEMA MARKUP ===== -->
       <script type="application/ld+json">
@@ -69,7 +75,7 @@ const AboutPage = {
           }
         }
       }
-      </script>
+      <\/script>
 
       <!-- ===== HERO SECTION ===== -->
       <div class="page-hero page-hero--about">
@@ -626,6 +632,279 @@ Proven capability in logistics coordination and operational execution at scale
         </div>
       </section>
 
+      <!-- ===== TEAM SECTION ===== -->
+
+<section class="mmt-team-about" id="team" aria-labelledby="team-heading">
+  <div class="mmt-team-about__container">
+    <div style="text-align: center;">
+      <span class="mmt-team-about__badge">Our Team</span>
+      <h2 class="mmt-team-about__title" id="team-heading">Meet the Experts</h2>
+      <div class="mmt-team-about__underline"></div>
+      <p class="mmt-team-about__subtitle">A diverse group of procurement, logistics, and humanitarian experts committed to delivering impact at scale.</p>
+    </div>
+    
+    <!-- Hierarchy Level 1: Leadership -->
+    <div class="mmt-team-hierarchy">
+      <div class="mmt-team-hierarchy__header">
+        <span class="mmt-team-hierarchy__badge">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          Level 1
+        </span>
+        <h3 class="mmt-team-hierarchy__heading">Executive Leadership</h3>
+        <div class="mmt-team-hierarchy__underline"></div>
+        <p class="mmt-team-hierarchy__description">Strategic direction and organizational oversight driving global impact.</p>
+      </div>
+      
+      <!-- Desktop Grid -->
+      <div class="mmt-team-grid">
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/ryan.webp" alt="Ryan Wait" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Ryan Wait</h3>
+          <p class="mmt-team-card__role">Chief Executive Officer</p>
+          <p class="mmt-team-card__bio">Strategic leader with extensive experience in global supply chain operations and institutional partnerships.</p>
+        </article>
+        
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/abdul.png" alt="Abdulqadir" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Abdulqadir</h3>
+          <p class="mmt-team-card__role">Director</p>
+          <p class="mmt-team-card__bio">Oversees operational execution and client relationships across complex humanitarian projects.</p>
+        </article>
+      </div>
+
+      <!-- Mobile Carousel -->
+      <div class="mmt-team-carousel" aria-label="Executive Leadership carousel">
+        <button class="mmt-carousel-arrow prev" aria-label="Previous">&#10094;</button>
+        <div class="mmt-carousel-track" id="carousel-leadership">
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/ryan.webp" alt="Ryan Wait" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Ryan Wait</h3>
+              <p class="mmt-team-card__role">Chief Executive Officer</p>
+              <p class="mmt-team-card__bio">Strategic leader with extensive experience in global supply chain operations.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/abdul.png" alt="Abdulqadir" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Abdulqadir</h3>
+              <p class="mmt-team-card__role">Director</p>
+              <p class="mmt-team-card__bio">Oversees operational execution across complex humanitarian projects.</p>
+            </article>
+          </div>
+        </div>
+        <button class="mmt-carousel-arrow next" aria-label="Next">&#10095;</button>
+        <div class="mmt-carousel-nav" data-carousel="leadership"></div>
+      </div>
+    </div>
+
+    <!-- Hierarchy Level 2: Senior Management -->
+    <div class="mmt-team-hierarchy">
+      <div class="mmt-team-hierarchy__header">
+        <span class="mmt-team-hierarchy__badge">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Level 2
+        </span>
+        <h3 class="mmt-team-hierarchy__heading">Senior Management</h3>
+        <div class="mmt-team-hierarchy__underline"></div>
+        <p class="mmt-team-hierarchy__description">Leading commercial strategy, global operations, and digital infrastructure.</p>
+      </div>
+      
+      <!-- Desktop Grid -->
+      <div class="mmt-team-grid">
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Velides.jpeg" alt="Videlis" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Videlis</h3>
+          <p class="mmt-team-card__role">Head of Global Tenders & Commercial Strategy</p>
+          <p class="mmt-team-card__bio">Leads global tender operations and commercial strategy to secure high-value opportunities and drive sustainable growth.</p>
+        </article>
+        
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Syed.jpeg" alt="Syed" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Syed</h3>
+          <p class="mmt-team-card__role">Executive Manager – Global Bidding & Commercial Strategy</p>
+          <p class="mmt-team-card__bio">Oversees global bidding operations and commercial strategy, delivering competitive proposals and long-term business growth.</p>
+        </article>
+
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Asim.jpeg" alt="Asim" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Asim</h3>
+          <p class="mmt-team-card__role">ICT & Digital Operations Manager</p>
+          <p class="mmt-team-card__bio">Leads ICT infrastructure and digital operations, ensuring secure, efficient systems and reliable technology performance across the organisation.</p>
+        </article>
+      </div>
+
+      <!-- Mobile Carousel -->
+      <div class="mmt-team-carousel" aria-label="Senior Management carousel">
+        <button class="mmt-carousel-arrow prev" aria-label="Previous">&#10094;</button>
+        <div class="mmt-carousel-track" id="carousel-senior">
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Velides.jpeg" alt="Videlis" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Videlis</h3>
+              <p class="mmt-team-card__role">Head of Global Tenders & Commercial Strategy</p>
+              <p class="mmt-team-card__bio">Leads global tender operations and commercial strategy to secure high-value opportunities.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Syed.jpeg" alt="Syed" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Syed</h3>
+              <p class="mmt-team-card__role">Executive Manager – Global Bidding</p>
+              <p class="mmt-team-card__bio">Oversees global bidding operations and commercial strategy for competitive proposals.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Asim.jpeg" alt="Asim" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Asim</h3>
+              <p class="mmt-team-card__role">ICT & Digital Operations Manager</p>
+              <p class="mmt-team-card__bio">Leads ICT infrastructure and digital operations for secure, efficient systems.</p>
+            </article>
+          </div>
+        </div>
+        <button class="mmt-carousel-arrow next" aria-label="Next">&#10095;</button>
+        <div class="mmt-carousel-nav" data-carousel="senior"></div>
+      </div>
+    </div>
+
+    <!-- Hierarchy Level 3: Specialists -->
+    <div class="mmt-team-hierarchy">
+      <div class="mmt-team-hierarchy__header">
+        <span class="mmt-team-hierarchy__badge">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
+          Level 3
+        </span>
+        <h3 class="mmt-team-hierarchy__heading">Specialists & Analysts</h3>
+        <div class="mmt-team-hierarchy__underline"></div>
+        <p class="mmt-team-hierarchy__description">Expert execution in pricing, sourcing, business development, and tender delivery.</p>
+      </div>
+      
+      <!-- Desktop Grid -->
+      <div class="mmt-team-grid">
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/John.png" alt="John Olwande" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">John</h3>
+          <p class="mmt-team-card__role">Pricing Analyst & Supplier Sourcing Specialist</p>
+          <p class="mmt-team-card__bio">Optimises pricing strategies and sources trusted suppliers to ensure cost-effective, high-quality solutions.</p>
+        </article>
+        
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/joye.jpeg" alt="Joyce" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Joyce</h3>
+          <p class="mmt-team-card__role">Business Development & Tender Strategy</p>
+          <p class="mmt-team-card__bio">Drives business growth through strategic partnerships, opportunity identification, and winning tender strategies.</p>
+        </article>
+
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Wycliffe.jpeg" alt="Wycliffe" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Wycliffe</h3>
+          <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
+          <p class="mmt-team-card__bio">Manages global tender submissions and bid execution with a focus on accuracy, compliance, and competitive outcomes.</p>
+        </article>
+      </div>
+
+      <!-- Mobile Carousel -->
+      <div class="mmt-team-carousel" aria-label="Specialists carousel">
+        <button class="mmt-carousel-arrow prev" aria-label="Previous">&#10094;</button>
+        <div class="mmt-carousel-track" id="carousel-specialists">
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/John.png" alt="John Olwande" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">John</h3>
+              <p class="mmt-team-card__role">Pricing Analyst & Supplier Sourcing</p>
+              <p class="mmt-team-card__bio">Optimises pricing strategies and sources trusted suppliers for cost-effective solutions.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/joye.jpeg" alt="Joyce" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Joyce</h3>
+              <p class="mmt-team-card__role">Business Development & Tender Strategy</p>
+              <p class="mmt-team-card__bio">Drives business growth through strategic partnerships and winning tender strategies.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Wycliffe.jpeg" alt="Wycliffe" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Wycliffe</h3>
+              <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
+              <p class="mmt-team-card__bio">Manages global tender submissions with focus on accuracy, compliance, and competitive outcomes.</p>
+            </article>
+          </div>
+        </div>
+        <button class="mmt-carousel-arrow next" aria-label="Next">&#10095;</button>
+        <div class="mmt-carousel-nav" data-carousel="specialists"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
       <!-- ===== CONCLUSION & CTA ===== -->
       <section class="cta-band cta-band--about" aria-labelledby="cta-heading">
         <div class="container">
@@ -652,28 +931,145 @@ Proven capability in logistics coordination and operational execution at scale
       </section>
     `;
 
-    // Initialize animations
+  // Defer animations until after innerHTML is painted
+  requestAnimationFrame(() => {
     this.initAnimations();
-  },
+  });
+},
 
-  initAnimations() {
-    const revealElements = document.querySelectorAll('.reveal');
+initAnimations() {
+  const revealElements = document.querySelectorAll('.reveal');
 
-    const revealOnScroll = () => {
-      const windowHeight = window.innerHeight;
-      const elementVisible = 100;
+  const revealOnScroll = () => {
+    const windowHeight = window.innerHeight;
+    const elementVisible = 100;
 
-      revealElements.forEach((reveal) => {
-        const elementTop = reveal.getBoundingClientRect().top;
-        if (elementTop < windowHeight - elementVisible) {
-          reveal.classList.add('active');
-        }
+    revealElements.forEach((reveal) => {
+      const elementTop = reveal.getBoundingClientRect().top;
+      if (elementTop < windowHeight - elementVisible) {
+        reveal.classList.add('active');
+      }
+    });
+  };
+
+  window.addEventListener('scroll', revealOnScroll, { passive: true });
+  // Trigger immediately so above-fold elements reveal without scrolling
+  revealOnScroll();
+},
+
+initTeamCarousel() {
+  // ✅ Handle ALL carousels (one per hierarchy section)
+  const carousels = document.querySelectorAll('.mmt-team-carousel');
+  
+  if (!carousels.length) return;
+
+  carousels.forEach((carousel) => {
+    const track = carousel.querySelector('.mmt-carousel-track');
+    const slides = track ? Array.from(track.children) : [];
+    const dotsContainer = carousel.querySelector('.mmt-carousel-nav');
+    const prevBtn = carousel.querySelector('.mmt-carousel-arrow.prev');
+    const nextBtn = carousel.querySelector('.mmt-carousel-arrow.next');
+
+    // Exit early if carousel elements don't exist or only one slide
+    if (!track || slides.length <= 1) return;
+
+    let currentIndex = 0;
+    let autoPlay = null;
+
+    // Create navigation dots
+    slides.forEach(function(_, index) {
+      const dot = document.createElement('button');
+      dot.className = 'mmt-carousel-dot' + (index === 0 ? ' active' : '');
+      dot.setAttribute('role', 'tab');
+      dot.setAttribute('aria-label', 'Go to slide ' + (index + 1));
+      dot.setAttribute('aria-selected', String(index === 0));
+      dot.addEventListener('click', function() { goToSlide(index); });
+      if (dotsContainer) dotsContainer.appendChild(dot);
+    });
+
+    const dots = dotsContainer ? Array.from(dotsContainer.children) : [];
+
+    function updateCarousel() {
+      if (!track) return;
+      track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+
+      dots.forEach(function(dot, index) {
+        const isActive = index === currentIndex;
+        dot.classList.toggle('active', isActive);
+        dot.setAttribute('aria-selected', String(isActive));
       });
-    };
+    }
 
-    window.addEventListener('scroll', revealOnScroll, { passive: true });
-    revealOnScroll(); // Trigger on load
-  }
+    function goToSlide(index) {
+      currentIndex = index;
+      updateCarousel();
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateCarousel();
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateCarousel();
+    }
+
+    if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+    if (prevBtn) prevBtn.addEventListener('click', prevSlide);
+
+    // Touch swipe support
+    let touchStartX = 0;
+
+    track.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    track.addEventListener('touchend', function(e) {
+      const touchEndX = e.changedTouches[0].screenX;
+      const swipeThreshold = 50;
+      if (touchStartX - touchEndX > swipeThreshold) nextSlide();
+      if (touchEndX - touchStartX > swipeThreshold) prevSlide();
+    }, { passive: true });
+
+    // Keyboard navigation
+    track.setAttribute('tabindex', '0');
+    track.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowRight') nextSlide();
+      if (e.key === 'ArrowLeft') prevSlide();
+    });
+
+    // Initialize display
+    updateCarousel();
+
+    // Auto-play with pause on interaction
+    function startAutoPlay() {
+      autoPlay = setInterval(nextSlide, 8000);
+    }
+
+    function stopAutoPlay() {
+      if (autoPlay) {
+        clearInterval(autoPlay);
+        autoPlay = null;
+      }
+    }
+
+    track.addEventListener('mouseenter', stopAutoPlay);
+    track.addEventListener('mouseleave', startAutoPlay);
+    track.addEventListener('focusin', stopAutoPlay);
+    track.addEventListener('focusout', startAutoPlay);
+
+    startAutoPlay();
+  });
+}
 };
 
-Router.register('/about', AboutPage.render.bind(AboutPage));
+// ✅ Router registration - calls carousel init AFTER render
+Router.register('/about', function(container) {
+  AboutPage.render(container);
+  
+  // Defer carousel init until DOM is painted
+  requestAnimationFrame(() => {
+    AboutPage.initTeamCarousel();
+  });
+});
