@@ -660,7 +660,7 @@ Proven capability in logistics coordination and operational execution at scale
         <article class="mmt-team-card">
           <div class="mmt-team-card__image-wrapper">
             <div class="mmt-team-card__image">
-              <img src="assets/images/team/ryan.webp" alt="Ryan Wait" loading="lazy">
+              <img src="assets/images/team/ryan.jpeg" alt="Ryan Wait" loading="lazy">
             </div>
           </div>
           <h3 class="mmt-team-card__name">Ryan Wait</h3>
@@ -688,7 +688,7 @@ Proven capability in logistics coordination and operational execution at scale
             <article class="mmt-team-card">
               <div class="mmt-team-card__image-wrapper">
                 <div class="mmt-team-card__image">
-                  <img src="assets/images/team/ryan.webp" alt="Ryan Wait" loading="lazy">
+                  <img src="assets/images/team/ryan.jpeg" alt="Ryan Wait" loading="lazy">
                 </div>
               </div>
               <h3 class="mmt-team-card__name">Ryan Wait</h3>
@@ -756,7 +756,7 @@ Proven capability in logistics coordination and operational execution at scale
               <img src="assets/images/team/Asim.jpeg" alt="Asim" loading="lazy">
             </div>
           </div>
-          <h3 class="mmt-team-card__name">Asim</h3>
+          <h3 class="mmt-team-card__name">Asim Esa</h3>
           <p class="mmt-team-card__role">ICT & Digital Operations Manager</p>
           <p class="mmt-team-card__bio">Leads ICT infrastructure and digital operations, ensuring secure, efficient systems and reliable technology performance across the organisation.</p>
         </article>

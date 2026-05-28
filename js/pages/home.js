@@ -690,7 +690,7 @@ const HomePage = {
       <article class="mmt-leadership-card">
         <div class="mmt-leadership-card__image-wrapper">
           <div class="mmt-leadership-card__image">
-            <img src="assets/images/team/ryan.webp" alt="Chief Executive Officer" loading="lazy">
+            <img src="assets/images/team/ryan.jpeg" alt="Chief Executive Officer" loading="lazy">
           </div>
         </div>
         <h3 class="mmt-leadership-card__name">Ryan Wait</h3>
