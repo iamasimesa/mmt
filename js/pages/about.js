@@ -856,6 +856,18 @@ Proven capability in logistics coordination and operational execution at scale
         </article>
       </div>
 
+      <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Stella.jpeg" alt="Stella" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Stella</h3>
+          <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
+          <p class="mmt-team-card__bio">Manages global tender submissions and bid execution with a focus on accuracy, compliance, and competitive outcomes.</p>
+        </article>
+      </div>
+
       <!-- Mobile Carousel -->
       <div class="mmt-team-carousel" aria-label="Specialists carousel">
         <button class="mmt-carousel-arrow prev" aria-label="Previous">&#10094;</button>
@@ -892,6 +904,19 @@ Proven capability in logistics coordination and operational execution at scale
                 </div>
               </div>
               <h3 class="mmt-team-card__name">Wycliffe</h3>
+              <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
+              <p class="mmt-team-card__bio">Manages global tender submissions with focus on accuracy, compliance, and competitive outcomes.</p>
+            </article>
+          </div>
+
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Stella.jpeg" alt="Stella" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Stella</h3>
               <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
               <p class="mmt-team-card__bio">Manages global tender submissions with focus on accuracy, compliance, and competitive outcomes.</p>
             </article>
