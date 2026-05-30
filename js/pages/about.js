@@ -808,7 +808,7 @@ Proven capability in logistics coordination and operational execution at scale
       </div>
     </div>
 
-    <!-- Hierarchy Level 3: Specialists -->
+        <!-- Hierarchy Level 3: Specialists -->
     <div class="mmt-team-hierarchy">
       <div class="mmt-team-hierarchy__header">
         <span class="mmt-team-hierarchy__badge">
@@ -854,9 +854,8 @@ Proven capability in logistics coordination and operational execution at scale
           <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
           <p class="mmt-team-card__bio">Manages global tender submissions and bid execution with a focus on accuracy, compliance, and competitive outcomes.</p>
         </article>
-      </div>
 
-      <article class="mmt-team-card">
+        <article class="mmt-team-card">
           <div class="mmt-team-card__image-wrapper">
             <div class="mmt-team-card__image">
               <img src="assets/images/team/Stella.jpeg" alt="Stella" loading="lazy">
