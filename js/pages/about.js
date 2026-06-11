@@ -760,6 +760,28 @@ Proven capability in logistics coordination and operational execution at scale
           <p class="mmt-team-card__role">ICT & Digital Operations Manager</p>
           <p class="mmt-team-card__bio">Leads ICT infrastructure and digital operations, ensuring secure, efficient systems and reliable technology performance across the organisation.</p>
         </article>
+
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Robin.png" alt="Robin" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Robin</h3>
+          <p class="mmt-team-card__role">Regional Manager – East Africa Growth & Partnerships</p>
+          <p class="mmt-team-card__bio">Leads regional growth strategy and builds strategic partnerships across East Africa, expanding MMT Alliance's footprint in key emerging markets.</p>
+        </article>
+
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Mamoth.jpeg" alt="Mamoth" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Mamoth</h3>
+          <p class="mmt-team-card__role">Executive Manager – Egypt Operations & Commercial Strategy</p>
+          <p class="mmt-team-card__bio">Oversees Egypt operations and drives commercial strategy, building high-value partnerships and expanding MMT Alliance's presence across North Africa.</p>
+        </article>
       </div>
 
       <!-- Mobile Carousel -->
@@ -800,6 +822,30 @@ Proven capability in logistics coordination and operational execution at scale
               <h3 class="mmt-team-card__name">Asim</h3>
               <p class="mmt-team-card__role">ICT & Digital Operations Manager</p>
               <p class="mmt-team-card__bio">Leads ICT infrastructure and digital operations for secure, efficient systems.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Robin.png" alt="Robin" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Robin</h3>
+              <p class="mmt-team-card__role">Regional Manager – East Africa Growth & Partnerships</p>
+              <p class="mmt-team-card__bio">Leads regional growth and builds strategic partnerships across East Africa.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Mamoth.jpeg" alt="Mamoth" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Mamoth</h3>
+              <p class="mmt-team-card__role">Executive Manager – Egypt Operations & Commercial Strategy</p>
+              <p class="mmt-team-card__bio">Oversees Egypt operations and drives commercial strategy across North Africa.</p>
             </article>
           </div>
         </div>
@@ -865,6 +911,17 @@ Proven capability in logistics coordination and operational execution at scale
           <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
           <p class="mmt-team-card__bio">Manages global tender submissions and bid execution with a focus on accuracy, compliance, and competitive outcomes.</p>
         </article>
+
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Dorothy.jpeg" alt="Dorothy" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Dorothy</h3>
+          <p class="mmt-team-card__role">Pricing Analyst & Supplier Sourcing Specialist</p>
+          <p class="mmt-team-card__bio">Delivers precise pricing analysis and strategic supplier sourcing to ensure competitive, quality-driven procurement outcomes across all categories.</p>
+        </article>
       </div>
 
       <!-- Mobile Carousel -->
@@ -918,6 +975,18 @@ Proven capability in logistics coordination and operational execution at scale
               <h3 class="mmt-team-card__name">Stella</h3>
               <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
               <p class="mmt-team-card__bio">Manages global tender submissions with focus on accuracy, compliance, and competitive outcomes.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Dorothy.jpeg" alt="Dorothy" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Dorothy</h3>
+              <p class="mmt-team-card__role">Pricing Analyst & Supplier Sourcing Specialist</p>
+              <p class="mmt-team-card__bio">Delivers precise pricing analysis and strategic supplier sourcing for competitive procurement outcomes.</p>
             </article>
           </div>
         </div>
