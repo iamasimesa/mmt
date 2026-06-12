@@ -764,17 +764,6 @@ Proven capability in logistics coordination and operational execution at scale
         <article class="mmt-team-card">
           <div class="mmt-team-card__image-wrapper">
             <div class="mmt-team-card__image">
-              <img src="assets/images/team/Robin.png" alt="Robin" loading="lazy">
-            </div>
-          </div>
-          <h3 class="mmt-team-card__name">Robin</h3>
-          <p class="mmt-team-card__role">Regional Manager – East Africa Growth & Partnerships</p>
-          <p class="mmt-team-card__bio">Leads regional growth strategy and builds strategic partnerships across East Africa, expanding MMT Alliance's footprint in key emerging markets.</p>
-        </article>
-
-        <article class="mmt-team-card">
-          <div class="mmt-team-card__image-wrapper">
-            <div class="mmt-team-card__image">
               <img src="assets/images/team/Mamoth.jpeg" alt="Mamoth" loading="lazy">
             </div>
           </div>
@@ -822,18 +811,6 @@ Proven capability in logistics coordination and operational execution at scale
               <h3 class="mmt-team-card__name">Asim</h3>
               <p class="mmt-team-card__role">ICT & Digital Operations Manager</p>
               <p class="mmt-team-card__bio">Leads ICT infrastructure and digital operations for secure, efficient systems.</p>
-            </article>
-          </div>
-          <div class="mmt-carousel-slide">
-            <article class="mmt-team-card">
-              <div class="mmt-team-card__image-wrapper">
-                <div class="mmt-team-card__image">
-                  <img src="assets/images/team/Robin.png" alt="Robin" loading="lazy">
-                </div>
-              </div>
-              <h3 class="mmt-team-card__name">Robin</h3>
-              <p class="mmt-team-card__role">Regional Manager – East Africa Growth & Partnerships</p>
-              <p class="mmt-team-card__bio">Leads regional growth and builds strategic partnerships across East Africa.</p>
             </article>
           </div>
           <div class="mmt-carousel-slide">
