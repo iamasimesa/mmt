@@ -243,6 +243,17 @@ const AboutPage = {
           <p class="mmt-team-card__role">Executive Manager – Egypt Operations & Commercial Strategy</p>
           <p class="mmt-team-card__bio">Oversees Egypt operations and drives commercial strategy, building high-value partnerships and expanding MMT Alliance's presence across North Africa.</p>
         </article>
+
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Fredrick.jpeg" alt="Fredrick" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Fredrick</h3>
+          <p class="mmt-team-card__role">Strategic Partnerships & Institutional Relations Manager – Kenya & Somalia</p>
+          <p class="mmt-team-card__bio">Cultivates high-impact institutional relationships and drives strategic partnerships across Kenya and Somalia, positioning MMT Alliance as the preferred procurement partner for governments and international agencies in the region.</p>
+        </article>
       </div>
 
       <!-- Mobile Carousel -->
@@ -295,6 +306,18 @@ const AboutPage = {
               <h3 class="mmt-team-card__name">Mamoth</h3>
               <p class="mmt-team-card__role">Executive Manager – Egypt Operations & Commercial Strategy</p>
               <p class="mmt-team-card__bio">Oversees Egypt operations and drives commercial strategy across North Africa.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Fredrick.jpeg" alt="Fredrick" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Fredrick</h3>
+              <p class="mmt-team-card__role">Strategic Partnerships & Institutional Relations Manager – Kenya & Somalia</p>
+              <p class="mmt-team-card__bio">Cultivates high-impact institutional relationships and drives strategic partnerships across Kenya and Somalia.</p>
             </article>
           </div>
         </div>
