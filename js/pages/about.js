@@ -258,7 +258,7 @@ const AboutPage = {
         <article class="mmt-team-card">
           <div class="mmt-team-card__image-wrapper">
             <div class="mmt-team-card__image">
-              <img src="assets/images/team/Mustafa.jpeg" alt="Mustafa" loading="lazy" style="object-position: center top;">
+              <img src="assets/images/team/Mustafa.jpeg" alt="Mustafa" loading="lazy" style="object-fit: contain; object-position: center; transform: scale(1.05);">
             </div>
           </div>
           <h3 class="mmt-team-card__name">Mustafa</h3>
@@ -335,7 +335,7 @@ const AboutPage = {
             <article class="mmt-team-card">
               <div class="mmt-team-card__image-wrapper">
                 <div class="mmt-team-card__image">
-                  <img src="assets/images/team/Mustafa.jpeg" alt="Mustafa" loading="lazy" style="object-position: center top;">
+                  <img src="assets/images/team/Mustafa.jpeg" alt="Mustafa" loading="lazy" style="object-fit: contain; object-position: center; transform: scale(1.05);">
                 </div>
               </div>
               <h3 class="mmt-team-card__name">Mustafa</h3>
