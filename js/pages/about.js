@@ -254,6 +254,17 @@ const AboutPage = {
           <p class="mmt-team-card__role">Strategic Partnerships & Institutional Relations Manager – Kenya & Somalia</p>
           <p class="mmt-team-card__bio">Cultivates high-impact institutional relationships and drives strategic partnerships across Kenya and Somalia, positioning MMT Alliance as the preferred procurement partner for governments and international agencies in the region.</p>
         </article>
+
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/Mustafa.jpeg" alt="Mustafa" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Mustafa</h3>
+          <p class="mmt-team-card__role">Strategic Partnerships & Operations Lead – Somalia</p>
+          <p class="mmt-team-card__bio">Leads strategic partnerships and on-the-ground operations across Somalia, building trusted relationships with government bodies and international agencies while ensuring efficient, reliable delivery in complex environments.</p>
+        </article>
       </div>
 
       <!-- Mobile Carousel -->
@@ -318,6 +329,18 @@ const AboutPage = {
               <h3 class="mmt-team-card__name">Fredrick</h3>
               <p class="mmt-team-card__role">Strategic Partnerships & Institutional Relations Manager – Kenya & Somalia</p>
               <p class="mmt-team-card__bio">Cultivates high-impact institutional relationships and drives strategic partnerships across Kenya and Somalia.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/Mustafa.jpeg" alt="Mustafa" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Mustafa</h3>
+              <p class="mmt-team-card__role">Strategic Partnerships & Operations Lead – Somalia</p>
+              <p class="mmt-team-card__bio">Leads strategic partnerships and on-the-ground operations across Somalia for efficient, reliable delivery.</p>
             </article>
           </div>
         </div>
