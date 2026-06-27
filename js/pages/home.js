@@ -706,7 +706,7 @@ const HomePage = {
           </div>
         </div>
         <h3 class="mmt-leadership-card__name">Abdulqadir</h3>
-        <p class="mmt-leadership-card__role">Director</p>
+        <p class="mmt-leadership-card__role">Group Director</p>
         <p class="mmt-leadership-card__bio">Oversees operational execution and client relationships across complex humanitarian and government projects.</p>
       </article>
     </div>
