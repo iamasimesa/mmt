@@ -147,8 +147,19 @@ const AboutPage = {
             </div>
           </div>
           <h3 class="mmt-team-card__name">Abdulqadir</h3>
-          <p class="mmt-team-card__role">Director</p>
+          <p class="mmt-team-card__role">Group Director</p>
           <p class="mmt-team-card__bio">Oversees operational execution and client relationships across complex humanitarian projects.</p>
+        </article>
+
+        <article class="mmt-team-card">
+          <div class="mmt-team-card__image-wrapper">
+            <div class="mmt-team-card__image">
+              <img src="assets/images/team/joy.jpeg" alt="Joy" loading="lazy">
+            </div>
+          </div>
+          <h3 class="mmt-team-card__name">Joy</h3>
+          <p class="mmt-team-card__role">Executive Director – Infrastructure, Major Projects & Strategic Partnerships</p>
+          <p class="mmt-team-card__bio">Leads infrastructure and major project delivery while forging strategic partnerships that expand MMT Alliance's reach and impact across global markets.</p>
         </article>
       </div>
 
@@ -176,8 +187,20 @@ const AboutPage = {
                 </div>
               </div>
               <h3 class="mmt-team-card__name">Abdulqadir</h3>
-              <p class="mmt-team-card__role">Director</p>
+              <p class="mmt-team-card__role">Group Director</p>
               <p class="mmt-team-card__bio">Oversees operational execution across complex humanitarian projects.</p>
+            </article>
+          </div>
+          <div class="mmt-carousel-slide">
+            <article class="mmt-team-card">
+              <div class="mmt-team-card__image-wrapper">
+                <div class="mmt-team-card__image">
+                  <img src="assets/images/team/joy.jpeg" alt="Joy" loading="lazy">
+                </div>
+              </div>
+              <h3 class="mmt-team-card__name">Joy</h3>
+              <p class="mmt-team-card__role">Executive Director – Infrastructure, Major Projects & Strategic Partnerships</p>
+              <p class="mmt-team-card__bio">Leads infrastructure and major project delivery while forging strategic partnerships across global markets.</p>
             </article>
           </div>
         </div>
