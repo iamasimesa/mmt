@@ -154,7 +154,7 @@ const AboutPage = {
         <article class="mmt-team-card">
           <div class="mmt-team-card__image-wrapper">
             <div class="mmt-team-card__image">
-              <img src="assets/images/team/joy.jpeg" alt="Joy" loading="lazy">
+              <img src="assets/images/team/joy.jpeg" alt="Joy" loading="lazy" style="transform: scale(0.9) translateY(8%);">
             </div>
           </div>
           <h3 class="mmt-team-card__name">Joy</h3>
@@ -195,7 +195,7 @@ const AboutPage = {
             <article class="mmt-team-card">
               <div class="mmt-team-card__image-wrapper">
                 <div class="mmt-team-card__image">
-                  <img src="assets/images/team/joy.jpeg" alt="Joy" loading="lazy">
+                  <img src="assets/images/team/joy.jpeg" alt="Joy" loading="lazy" style="transform: scale(0.9) translateY(8%);">
                 </div>
               </div>
               <h3 class="mmt-team-card__name">Joy</h3>
