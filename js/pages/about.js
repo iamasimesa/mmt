@@ -389,56 +389,12 @@ const AboutPage = {
         <article class="mmt-team-card">
           <div class="mmt-team-card__image-wrapper">
             <div class="mmt-team-card__image">
-              <img src="assets/images/team/John.png" alt="John Olwande" loading="lazy">
-            </div>
-          </div>
-          <h3 class="mmt-team-card__name">John</h3>
-          <p class="mmt-team-card__role">Pricing Analyst & Supplier Sourcing Specialist</p>
-          <p class="mmt-team-card__bio">Optimises pricing strategies and sources trusted suppliers to ensure cost-effective, high-quality solutions.</p>
-        </article>
-        
-        <article class="mmt-team-card">
-          <div class="mmt-team-card__image-wrapper">
-            <div class="mmt-team-card__image">
-              <img src="assets/images/team/joye.jpeg" alt="Joyce" loading="lazy">
-            </div>
-          </div>
-          <h3 class="mmt-team-card__name">Joyce</h3>
-          <p class="mmt-team-card__role">Business Development & Tender Strategy</p>
-          <p class="mmt-team-card__bio">Drives business growth through strategic partnerships, opportunity identification, and winning tender strategies.</p>
-        </article>
-
-        <article class="mmt-team-card">
-          <div class="mmt-team-card__image-wrapper">
-            <div class="mmt-team-card__image">
               <img src="assets/images/team/Wycliffe.jpeg" alt="Wycliffe" loading="lazy">
             </div>
           </div>
           <h3 class="mmt-team-card__name">Wycliffe</h3>
           <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
           <p class="mmt-team-card__bio">Manages global tender submissions and bid execution with a focus on accuracy, compliance, and competitive outcomes.</p>
-        </article>
-
-        <article class="mmt-team-card">
-          <div class="mmt-team-card__image-wrapper">
-            <div class="mmt-team-card__image">
-              <img src="assets/images/team/Stella.jpeg" alt="Stella" loading="lazy">
-            </div>
-          </div>
-          <h3 class="mmt-team-card__name">Stella</h3>
-          <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
-          <p class="mmt-team-card__bio">Manages global tender submissions and bid execution with a focus on accuracy, compliance, and competitive outcomes.</p>
-        </article>
-
-        <article class="mmt-team-card">
-          <div class="mmt-team-card__image-wrapper">
-            <div class="mmt-team-card__image">
-              <img src="assets/images/team/Dorothy.jpeg" alt="Dorothy" loading="lazy">
-            </div>
-          </div>
-          <h3 class="mmt-team-card__name">Dorothy</h3>
-          <p class="mmt-team-card__role">Pricing Analyst & Supplier Sourcing Specialist</p>
-          <p class="mmt-team-card__bio">Delivers precise pricing analysis and strategic supplier sourcing to ensure competitive, quality-driven procurement outcomes across all categories.</p>
         </article>
       </div>
 
@@ -450,61 +406,12 @@ const AboutPage = {
             <article class="mmt-team-card">
               <div class="mmt-team-card__image-wrapper">
                 <div class="mmt-team-card__image">
-                  <img src="assets/images/team/John.png" alt="John Olwande" loading="lazy">
-                </div>
-              </div>
-              <h3 class="mmt-team-card__name">John</h3>
-              <p class="mmt-team-card__role">Pricing Analyst & Supplier Sourcing</p>
-              <p class="mmt-team-card__bio">Optimises pricing strategies and sources trusted suppliers for cost-effective solutions.</p>
-            </article>
-          </div>
-          <div class="mmt-carousel-slide">
-            <article class="mmt-team-card">
-              <div class="mmt-team-card__image-wrapper">
-                <div class="mmt-team-card__image">
-                  <img src="assets/images/team/joye.jpeg" alt="Joyce" loading="lazy">
-                </div>
-              </div>
-              <h3 class="mmt-team-card__name">Joyce</h3>
-              <p class="mmt-team-card__role">Business Development & Tender Strategy</p>
-              <p class="mmt-team-card__bio">Drives business growth through strategic partnerships and winning tender strategies.</p>
-            </article>
-          </div>
-          <div class="mmt-carousel-slide">
-            <article class="mmt-team-card">
-              <div class="mmt-team-card__image-wrapper">
-                <div class="mmt-team-card__image">
                   <img src="assets/images/team/Wycliffe.jpeg" alt="Wycliffe" loading="lazy">
                 </div>
               </div>
               <h3 class="mmt-team-card__name">Wycliffe</h3>
               <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
               <p class="mmt-team-card__bio">Manages global tender submissions with focus on accuracy, compliance, and competitive outcomes.</p>
-            </article>
-          </div>
-
-          <div class="mmt-carousel-slide">
-            <article class="mmt-team-card">
-              <div class="mmt-team-card__image-wrapper">
-                <div class="mmt-team-card__image">
-                  <img src="assets/images/team/Stella.jpeg" alt="Stella" loading="lazy">
-                </div>
-              </div>
-              <h3 class="mmt-team-card__name">Stella</h3>
-              <p class="mmt-team-card__role">Tender Specialist – Global Bid Execution</p>
-              <p class="mmt-team-card__bio">Manages global tender submissions with focus on accuracy, compliance, and competitive outcomes.</p>
-            </article>
-          </div>
-          <div class="mmt-carousel-slide">
-            <article class="mmt-team-card">
-              <div class="mmt-team-card__image-wrapper">
-                <div class="mmt-team-card__image">
-                  <img src="assets/images/team/Dorothy.jpeg" alt="Dorothy" loading="lazy">
-                </div>
-              </div>
-              <h3 class="mmt-team-card__name">Dorothy</h3>
-              <p class="mmt-team-card__role">Pricing Analyst & Supplier Sourcing Specialist</p>
-              <p class="mmt-team-card__bio">Delivers precise pricing analysis and strategic supplier sourcing for competitive procurement outcomes.</p>
             </article>
           </div>
         </div>
