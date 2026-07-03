@@ -146,6 +146,109 @@ const HomePage = {
   </div>
 </div>
 
+      <!-- ===== CERTIFICATIONS SECTION ===== -->
+      <section class="home-cert-section" aria-labelledby="cert-heading">
+        <div class="home-cert-inner">
+          <p class="home-cert-label" id="cert-heading">INTERNATIONALLY CERTIFIED &middot; GLOBALLY TRUSTED</p>
+          <div class="home-cert-grid">
+
+            <div class="home-cert-item" data-cert-id="iso9001" role="button" tabindex="0" aria-label="ISO 9001:2015 – tap for details">
+              <div class="home-cert-icon home-cert-icon--blue">
+                <span class="hci-gcc">GCC</span>
+                <span class="hci-iso">ISO</span>
+                <span class="hci-num">9001</span>
+              </div>
+              <div class="home-cert-text">
+                <strong>ISO 9001:2015</strong>
+                <span>Quality Management</span>
+              </div>
+            </div>
+
+            <div class="home-cert-item" data-cert-id="iso14001" role="button" tabindex="0" aria-label="ISO 14001:2015 – tap for details">
+              <div class="home-cert-icon home-cert-icon--green">
+                <span class="hci-gcc">GCC</span>
+                <span class="hci-iso">ISO</span>
+                <span class="hci-num">14001</span>
+              </div>
+              <div class="home-cert-text">
+                <strong>ISO 14001:2015</strong>
+                <span>Environmental Management</span>
+              </div>
+            </div>
+
+            <div class="home-cert-item" data-cert-id="iso45001" role="button" tabindex="0" aria-label="ISO 45001:2018 – tap for details">
+              <div class="home-cert-icon home-cert-icon--red">
+                <span class="hci-gcc">GCC</span>
+                <span class="hci-iso">ISO</span>
+                <span class="hci-num">45001</span>
+              </div>
+              <div class="home-cert-text">
+                <strong>ISO 45001:2018</strong>
+                <span>Occupational Health &amp; Safety</span>
+              </div>
+            </div>
+
+            <div class="home-cert-item" data-cert-id="iso22000" role="button" tabindex="0" aria-label="ISO 22000:2018 – tap for details">
+              <div class="home-cert-icon home-cert-icon--orange">
+                <span class="hci-gcc">GCC</span>
+                <span class="hci-iso">ISO</span>
+                <span class="hci-num">22000</span>
+              </div>
+              <div class="home-cert-text">
+                <strong>ISO 22000:2018</strong>
+                <span>Food Safety Management</span>
+              </div>
+            </div>
+
+            <div class="home-cert-item" data-cert-id="haccp" role="button" tabindex="0" aria-label="HACCP Certified – tap for details">
+              <div class="home-cert-icon home-cert-icon--teal">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" style="width:20px;height:20px;color:#fff"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2"/></svg>
+                <span style="font-size:0.55rem;font-weight:800;color:#fff;letter-spacing:0.04em">HACCP</span>
+              </div>
+              <div class="home-cert-text">
+                <strong>HACCP Certified</strong>
+                <span>Codex Alimentarius 2020</span>
+              </div>
+            </div>
+
+            <div class="home-cert-divider" aria-hidden="true"></div>
+
+            <div class="home-cert-item" data-cert-id="ungm" role="button" tabindex="0" aria-label="UNGM Registered Supplier – tap for details">
+              <div class="home-cert-icon home-cert-icon--ungm">
+                <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" style="width:28px;height:28px;color:#fff">
+                  <circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="2.5"/>
+                  <ellipse cx="24" cy="24" rx="10" ry="21" stroke="currentColor" stroke-width="2"/>
+                  <line x1="3" y1="24" x2="45" y2="24" stroke="currentColor" stroke-width="2"/>
+                  <path d="M6 13 Q24 9 42 13" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                  <path d="M6 35 Q24 39 42 35" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                </svg>
+              </div>
+              <div class="home-cert-text">
+                <strong>UNGM Registered</strong>
+                <span>Supplier No. 1201966</span>
+              </div>
+            </div>
+
+            <div class="home-cert-item" data-cert-id="jasanz" role="button" tabindex="0" aria-label="JAS-ANZ Accreditation – tap for details">
+              <div class="home-cert-icon home-cert-icon--jasanz">
+                <span style="font-size:0.6rem;font-weight:800;color:#fff;letter-spacing:0.06em;text-align:center">JAS<br>ANZ</span>
+              </div>
+              <div class="home-cert-text">
+                <strong>JAS-ANZ</strong>
+                <span>Accredited Certification Body</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="home-cert-cta">
+            <a href="/certifications" class="home-cert-link">
+              View Certificates
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10h10M11 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <!-- ===== CLIENT STRIP ===== -->
      <section class="trust-strip-section">
   <div class="trust-container">

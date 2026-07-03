@@ -124,106 +124,260 @@
 
   <!-- FOOTER -->
   <footer id="site-footer" role="contentinfo">
-    <div class="footer-container">
-      <div class="footer-brand">
-        <img src="assets/logo.png" alt="MMT Alliance" class="footer-logo"
-          onerror="this.style.display='none';document.getElementById('footer-logo-fallback').style.display='flex'" />
-        <div id="footer-logo-fallback" class="footer-logo-text" style="display:none">
-          <span
-            style="font-size:1.5rem;font-weight:700;color:#fff;letter-spacing:-0.02em;font-family:var(--font-heading)">MMT</span>
-          <span
-            style="font-size:1rem;font-weight:600;color:rgba(255,255,255,0.7);letter-spacing:0.06em;font-family:var(--font-heading)">
-            ALLIANCE</span>
+
+    <!-- CERTIFICATIONS STRIP -->
+    <div class="footer-cert-strip">
+      <div class="footer-cert-inner">
+        <p class="footer-cert-label">INTERNATIONALLY CERTIFIED &middot; GLOBALLY TRUSTED</p>
+        <div class="footer-cert-badges">
+
+          <!-- ISO 9001:2015 -->
+          <div class="cert-badge cert-badge--blue" data-cert-id="iso9001" role="button" tabindex="0" aria-label="ISO 9001:2015 – tap for details">
+            <div class="cert-badge__logo">
+              <span class="cert-badge__gcc">GCC</span>
+              <span class="cert-badge__iso">ISO</span>
+              <span class="cert-badge__num">9001</span>
+            </div>
+            <div class="cert-badge__info">
+              <span class="cert-badge__std">ISO 9001:2015</span>
+              <span class="cert-badge__name">Quality Management</span>
+            </div>
+          </div>
+
+          <!-- ISO 14001:2015 -->
+          <div class="cert-badge cert-badge--green" data-cert-id="iso14001" role="button" tabindex="0" aria-label="ISO 14001:2015 – tap for details">
+            <div class="cert-badge__logo">
+              <span class="cert-badge__gcc">GCC</span>
+              <span class="cert-badge__iso">ISO</span>
+              <span class="cert-badge__num">14001</span>
+            </div>
+            <div class="cert-badge__info">
+              <span class="cert-badge__std">ISO 14001:2015</span>
+              <span class="cert-badge__name">Environmental Management</span>
+            </div>
+          </div>
+
+          <!-- ISO 45001:2018 -->
+          <div class="cert-badge cert-badge--red" data-cert-id="iso45001" role="button" tabindex="0" aria-label="ISO 45001:2018 – tap for details">
+            <div class="cert-badge__logo">
+              <span class="cert-badge__gcc">GCC</span>
+              <span class="cert-badge__iso">ISO</span>
+              <span class="cert-badge__num">45001</span>
+            </div>
+            <div class="cert-badge__info">
+              <span class="cert-badge__std">ISO 45001:2018</span>
+              <span class="cert-badge__name">Occupational Health &amp; Safety</span>
+            </div>
+          </div>
+
+          <!-- ISO 22000:2018 -->
+          <div class="cert-badge cert-badge--orange" data-cert-id="iso22000" role="button" tabindex="0" aria-label="ISO 22000:2018 – tap for details">
+            <div class="cert-badge__logo">
+              <span class="cert-badge__gcc">GCC</span>
+              <span class="cert-badge__iso">ISO</span>
+              <span class="cert-badge__num">22000</span>
+            </div>
+            <div class="cert-badge__info">
+              <span class="cert-badge__std">ISO 22000:2018</span>
+              <span class="cert-badge__name">Food Safety Management</span>
+            </div>
+          </div>
+
+          <!-- HACCP -->
+          <div class="cert-badge cert-badge--teal" data-cert-id="haccp" role="button" tabindex="0" aria-label="HACCP Certified – tap for details">
+            <div class="cert-badge__logo cert-badge__logo--haccp">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2"/></svg>
+              <span class="cert-badge__haccp-text">HACCP</span>
+            </div>
+            <div class="cert-badge__info">
+              <span class="cert-badge__std">HACCP Certified</span>
+              <span class="cert-badge__name">Food Safety</span>
+            </div>
+          </div>
+
+          <!-- JAS-ANZ Divider -->
+          <div class="cert-divider" aria-hidden="true"></div>
+
+          <!-- UNGM -->
+          <div class="cert-badge cert-badge--ungm" data-cert-id="ungm" role="button" tabindex="0" aria-label="UNGM Registered Supplier – tap for details">
+            <div class="cert-badge__logo cert-badge__logo--ungm">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2.5"/>
+                <ellipse cx="24" cy="24" rx="10" ry="22" stroke="currentColor" stroke-width="2"/>
+                <line x1="2" y1="24" x2="46" y2="24" stroke="currentColor" stroke-width="2"/>
+                <path d="M6 14 Q24 10 42 14" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                <path d="M6 34 Q24 38 42 34" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              </svg>
+            </div>
+            <div class="cert-badge__info">
+              <span class="cert-badge__std">UNGM</span>
+              <span class="cert-badge__name">Registered Supplier</span>
+              <span class="cert-badge__sub">No. 1201966</span>
+            </div>
+          </div>
+
+          <!-- JAS-ANZ -->
+          <div class="cert-badge cert-badge--jasanz" data-cert-id="jasanz" role="button" tabindex="0" aria-label="JAS-ANZ Accreditation – tap for details">
+            <div class="cert-badge__logo cert-badge__logo--jasanz">
+              <span class="cert-badge__jasanz-label">JAS-ANZ</span>
+            </div>
+            <div class="cert-badge__info">
+              <span class="cert-badge__std">JAS-ANZ</span>
+              <span class="cert-badge__name">Accredited Body</span>
+            </div>
+          </div>
+
         </div>
-        <p class="footer-tagline">Global Procurement, Supply & Logistics Partner</p>
-        <p class="footer-desc">Delivering mission-critical supply chain solutions for governments, international
-          organisations, and humanitarian operations worldwide.</p>
+        <p class="footer-cert-note">Certified by Global Compliance Certification Pty Ltd (GCC), accredited by the Joint Accreditation System of Australia and New Zealand (JAS-ANZ). Certificates issued 30 June 2026, valid until 29 June 2029.</p>
       </div>
-      <div class="footer-links">
+    </div>
+
+    <!-- MAIN FOOTER -->
+    <div class="footer-main">
+      <div class="footer-main-inner">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="MMT Alliance" class="footer-logo"
+            onerror="this.style.display='none';document.getElementById('footer-logo-fallback').style.display='flex'" />
+          <div id="footer-logo-fallback" class="footer-logo-text" style="display:none">
+            <span style="font-size:1.5rem;font-weight:700;color:#fff;letter-spacing:-0.02em;font-family:var(--font-heading)">MMT</span>
+            <span style="font-size:1rem;font-weight:600;color:rgba(255,255,255,0.7);letter-spacing:0.06em;font-family:var(--font-heading)"> ALLIANCE</span>
+          </div>
+          <p class="footer-desc">Global procurement, logistics and project delivery solutions. Connecting markets. Delivering value.</p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="https://www.linkedin.com/company/mmt-alliance" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://x.com/mmtalliance" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" class="social-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.263 5.637L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/mmtalliance" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
         <div class="footer-col">
-          <h3 class="footer-heading">Company</h3>
+          <h3 class="footer-col__heading">Quick Links</h3>
           <ul role="list">
             <li><a href="/about">About Us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/sectors">Industries</a></li>
+            <li><a href="/case-studies">Projects</a></li>
+            <li><a href="/compliance">Certifications</a></li>
             <li><a href="/capabilities">Capabilities</a></li>
-            <li><a href="/case-studies">Case Studies</a></li>
-            <li><a href="/news">News &amp; Media</a></li>
+            <li><a href="/news">News &amp; Insights</a></li>
             <li><a href="/become-a-supplier">Become a Supplier</a></li>
           </ul>
         </div>
-        <div class="footer-col">
-          <h3 class="footer-heading">Services</h3>
-          <ul role="list">
-            <li><a href="/services#procurement">Procurement & Sourcing</a></li>
-            <li><a href="/services#supply">Supply Solutions</a></li>
-            <li><a href="/services#logistics">Logistics & Delivery</a></li>
-            <li><a href="/services#emergency">Emergency Response</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h3 class="footer-heading">Sectors</h3>
-          <ul role="list">
-            <li><a href="/sectors#governments">Governments</a></li>
-            <li><a href="/sectors#un">United Nations</a></li>
-            <li><a href="/sectors#ngos">NGOs</a></li>
-            <li><a href="/sectors#humanitarian">Humanitarian Relief</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h3 class="footer-heading">Contact</h3>
-          <address>
-            <p>Level 7/80 Dorcas St<br />Southbank VIC 3006<br />Australia</p>
-            <a href="mailto:info@mmtalliance.com" class="footer-email">info@mmtalliance.com</a>
-            <a href="mailto:procurement@mmtalliance.com" class="footer-email">procurement@mmtalliance.com</a>
-            <a href="mailto:contracts@mmtalliance.com" class="footer-email">contracts@mmtalliance.com</a>
-            <a href="tel:+61287309043" class="footer-email">Head-Office Contacts : +61 2 8730 9043</a>
 
-          </address>
+        <!-- Locations -->
+        <div class="footer-col">
+          <h3 class="footer-col__heading">Our Locations</h3>
+          <ul role="list" class="footer-locations">
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 11a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" stroke-width="1.5"/><path d="M10 2C6.686 2 4 4.686 4 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.314-2.686-6-6-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span><strong>Australia (HQ)</strong><br>Level 7/80 Dorcas St, Southbank VIC 3006</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 11a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" stroke-width="1.5"/><path d="M10 2C6.686 2 4 4.686 4 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.314-2.686-6-6-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span><strong>UAE</strong><br>Dubai</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 11a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" stroke-width="1.5"/><path d="M10 2C6.686 2 4 4.686 4 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.314-2.686-6-6-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span><strong>Kenya</strong><br>Nairobi</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 11a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" stroke-width="1.5"/><path d="M10 2C6.686 2 4 4.686 4 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.314-2.686-6-6-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span><strong>Somalia</strong><br>Mogadishu</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 11a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" stroke-width="1.5"/><path d="M10 2C6.686 2 4 4.686 4 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.314-2.686-6-6-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span><strong>Sudan</strong><br>Khartoum</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h3 class="footer-col__heading">Contact Us</h3>
+          <ul role="list" class="footer-contact-list">
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" fill="currentColor"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" fill="currentColor"/></svg>
+              <a href="mailto:info@mmtalliance.com">info@mmtalliance.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="currentColor"/></svg>
+              <a href="tel:+971508498355">+971 50 849 8355</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="currentColor"/></svg>
+              <a href="tel:+61287309043">+61 2 8730 9043 (HQ)</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16A8 8 0 0010 2zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"/></svg>
+              <a href="https://www.mmtalliance.com" target="_blank" rel="noopener noreferrer">www.mmtalliance.com</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- POLICIES STRIP -->
+    <div class="footer-policies-strip">
+      <div class="footer-policies-inner">
+        <span class="footer-policies-label">Policies</span>
+        <a href="/policies">Corporate Policies</a>
+        <a href="/supplier-code-of-conduct">Supplier Code of Conduct</a>
+        <a href="/terms">Terms &amp; Conditions</a>
+        <a href="/policies#anti-corruption">Anti-Corruption Policy</a>
+        <a href="/policies#esg">ESG Policy</a>
+        <a href="/policies#modern-slavery">Modern Slavery Policy</a>
+      </div>
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <p class="footer-copyright">&copy; <span id="footer-year"></span> MMT Care Pty Ltd T/A MMT Alliance. ABN: 76 634 832 321. All rights reserved.</p>
+        <div class="footer-bottom-right">
+          <a href="/capability-statement" class="footer-cap-btn">
+            <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M10 3v10M6 9l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              <rect x="3" y="15" width="14" height="2" rx="1" fill="currentColor" />
+            </svg>
+            Download Capability Statement
+          </a>
         </div>
       </div>
     </div>
-    <!-- Policies footer strip -->
-    <div class="footer-policies-strip">
-      <div
-        style="max-width:var(--content-width);margin:0 auto;padding:var(--space-md) var(--space-lg);display:flex;flex-wrap:wrap;gap:var(--space-md);align-items:center">
-        <span
-          style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.3)">Policies</span>
-        <a href="/policies"
-          style="font-size:0.78rem;color:rgba(255,255,255,0.5);text-decoration:none;transition:color 0.2s"
-          onmouseover="this.style.color='rgba(255,255,255,0.9)'"
-          onmouseout="this.style.color='rgba(255,255,255,0.5)'">Corporate Policies</a>
-        <a href="/supplier-code-of-conduct"
-          style="font-size:0.78rem;color:rgba(255,255,255,0.5);text-decoration:none;transition:color 0.2s"
-          onmouseover="this.style.color='rgba(255,255,255,0.9)'"
-          onmouseout="this.style.color='rgba(255,255,255,0.5)'">Supplier Code of Conduct</a>
-        <a href="/terms"
-          style="font-size:0.78rem;color:rgba(255,255,255,0.5);text-decoration:none;transition:color 0.2s"
-          onmouseover="this.style.color='rgba(255,255,255,0.9)'"
-          onmouseout="this.style.color='rgba(255,255,255,0.5)'">Terms &amp; Conditions</a>
-        <a href="/policies#anti-corruption"
-          style="font-size:0.78rem;color:rgba(255,255,255,0.5);text-decoration:none;transition:color 0.2s"
-          onmouseover="this.style.color='rgba(255,255,255,0.9)'"
-          onmouseout="this.style.color='rgba(255,255,255,0.5)'">Anti-Corruption Policy</a>
-        <a href="/policies#esg"
-          style="font-size:0.78rem;color:rgba(255,255,255,0.5);text-decoration:none;transition:color 0.2s"
-          onmouseover="this.style.color='rgba(255,255,255,0.9)'"
-          onmouseout="this.style.color='rgba(255,255,255,0.5)'">ESG Policy</a>
-        <a href="/policies#modern-slavery"
-          style="font-size:0.78rem;color:rgba(255,255,255,0.5);text-decoration:none;transition:color 0.2s"
-          onmouseover="this.style.color='rgba(255,255,255,0.9)'"
-          onmouseout="this.style.color='rgba(255,255,255,0.5)'">Modern Slavery Policy</a>
+
+  </footer>
+
+  <!-- CERTIFICATION MODAL -->
+  <div id="cert-modal" class="certm-overlay" aria-modal="true" role="dialog" aria-labelledby="certm-title" aria-hidden="true">
+    <div class="certm-dialog" tabindex="-1">
+      <button class="certm-close" id="certm-close-btn" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="certm-header">
+        <div id="certm-badge-el" class="certm-badge-wrap"></div>
+        <div class="certm-header-text">
+          <h3 class="certm-title" id="certm-title"></h3>
+          <p class="certm-type" id="certm-type"></p>
+        </div>
+      </div>
+      <p class="certm-desc" id="certm-desc"></p>
+      <div id="certm-meta-el"></div>
+      <div class="certm-footer">
+        <span class="certm-status"><span class="certm-dot"></span>Active &amp; Valid</span>
+        <a href="/certifications" class="certm-link">View all certificates →</a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; <span id="footer-year"></span> MMT Alliance. All rights reserved.</p>
-      <a href="/capability-statement" class="footer-cap-btn">
-        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
-          <path d="M10 3v10M6 9l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-          <rect x="3" y="15" width="14" height="2" rx="1" fill="currentColor" />
-        </svg>
-        Download Capability Statement
-      </a>
-    </div>
-  </footer>
+  </div>
 
   <script src="js/router.js"></script>
   <script src="js/nav.js"></script>
@@ -243,6 +397,7 @@
   <script src="js/pages/terms.js"></script>
   <script src="js/pages/become-supplier.js"></script>
   <script src="js/pages/partners.js"></script>
+  <script src="js/pages/certifications.js"></script>
   <script src="js/animations.js"></script>
   <script src="js/app.js"></script>
 

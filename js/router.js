@@ -35,6 +35,8 @@ const Router = (() => {
 
   /* Render page content */
   function renderPage(path) {
+    if (typeof closeCertModal === 'function') closeCertModal();
+
     const content = document.getElementById('page-content');
     if (!content) return;
 
