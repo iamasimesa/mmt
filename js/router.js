@@ -36,6 +36,11 @@ const Router = (() => {
   /* Render page content */
   function renderPage(path) {
     if (typeof closeCertModal === 'function') closeCertModal();
+    /* Remove scroll lock immediately, before the fade-out delay */
+    document.body.classList.remove('certm-active');
+    /* Direct scrollTop assignment bypasses css scroll-behavior:smooth on <html> */
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
 
     const content = document.getElementById('page-content');
     if (!content) return;
@@ -45,6 +50,9 @@ const Router = (() => {
 
     setTimeout(() => {
       content.innerHTML = '';
+      document.body.classList.remove('certm-active');
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
 
       const fn = resolve(path);
       if (fn) {
@@ -139,6 +147,9 @@ const Router = (() => {
   }
 
   function init() {
+    /* SPA owns scroll — prevent browser from restoring previous positions */
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
     /* Intercept all internal link clicks */
     document.addEventListener('click', (e) => {
       const link = e.target.closest('a[href]');

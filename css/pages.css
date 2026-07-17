@@ -6761,6 +6761,13 @@ padding: 80px 0;
   overflow: hidden;
 }
 
+.cta-band--certifications {
+  background: linear-gradient(135deg, #0a1f44 0%, #1a3a6a 100%);
+  padding: 3.5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
 .cta-band--compliance::before {
   content: '';
   position: absolute;

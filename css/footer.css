@@ -243,8 +243,19 @@
   font-size: 0.875rem;
   color: var(--footer-text-offwhite);
   line-height: 1.65;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
   max-width: 85%;
+}
+
+.footer-tagline {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-offwhite);
+  opacity: 0.75;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 90%;
 }
 
 /* Social icons */

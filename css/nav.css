@@ -15,10 +15,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* wrap is the safety net if content is ever wider than expected (font
+     metrics, zoom level) even after the width/spacing budget below — better
+     a rare second row than nav items silently spilling past the viewport. */
   flex-wrap: wrap;
-  max-width: 1440px;
+  /* Widened from 1440px: the 11-item nav (What We Do / Advisory dropdowns,
+     Construction & Infrastructure, Projects, etc.) needs more horizontal
+     budget than the original ~9-item nav this width was tuned for. */
+  max-width: 1720px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   position: relative;
   background: #ffffff;
 }
@@ -67,7 +73,7 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.15rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -77,9 +83,9 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0.7rem;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: #1e2f3e;
   text-decoration: none;
   border-radius: 40px;
@@ -133,6 +139,26 @@
   transform: translateY(6px);
   transition: all 0.2s ease;
   z-index: 1050;
+}
+
+/* Wide variant: lays long menus (e.g. Advisory) out in two columns so the
+   dropdown doesn't extend far enough down the page to cover the hero.
+   Gated to the same breakpoint as the rest of desktop nav so it doesn't
+   fight the mobile accordion's display:none between 769-1700px. */
+@media (min-width: 1701px) {
+  .dropdown-menu.dropdown-menu--wide {
+    min-width: 480px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5rem;
+    padding: 0.6rem 0.5rem;
+    /* Anchor from the right, not the left: this trigger sits near the right
+       end of the nav row, so a left-anchored 480px-wide menu would hang off
+       the viewport edge (inflating page scrollWidth even while closed, since
+       visibility:hidden elements still occupy layout space). */
+    left: auto;
+    right: 0;
+  }
 }
 
 .nav-dropdown:hover .dropdown-menu {
@@ -232,8 +258,12 @@
   transition: opacity 0.25s ease, visibility 0.25s;
 }
 
-/* ========== MOBILE STYLES (max-width: 768px) ========== */
-@media (max-width: 768px) {
+/* ========== MOBILE/SLIDE-OUT NAV STYLES (max-width: 1700px) ==========
+   Raised from 768px because the expanded 11-item nav (What We Do / Advisory
+   dropdowns, Construction & Infrastructure, Projects, etc.) overflows and
+   clips the Contact button on common laptop widths (1366px, 1440px) if kept
+   as a single horizontal row down to 768px. */
+@media (max-width: 1700px) {
   .nav-container {
     padding: 0.75rem 1.25rem;
     flex-wrap: nowrap;
@@ -387,7 +417,7 @@
 }
 
 /* small tablet fine tuning */
-@media (min-width: 769px) {
+@media (min-width: 1701px) {
   /* ensure any leftover expanded classes don't affect desktop */
   .nav-dropdown.expanded .dropdown-menu,
   .has-submenu.expanded .submenu {

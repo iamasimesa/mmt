@@ -84,7 +84,7 @@ const CertificationsPage = {
       <!-- ===== ISO CERTIFICATES ===== -->
       <section class="cp-section cp-section--white" aria-labelledby="iso-heading">
         <div class="container">
-          <div class="cp-section-hdr reveal">
+          <div class="cp-section-hdr">
             <span class="section-label">ISO Management System Certifications</span>
             <h2 id="iso-heading">Certified to Four ISO Standards</h2>
             <div class="divider"></div>
@@ -196,7 +196,7 @@ const CertificationsPage = {
       <!-- ===== HACCP + UNGM ===== -->
       <section class="cp-section cp-section--grey" aria-labelledby="other-heading">
         <div class="container">
-          <div class="cp-section-hdr reveal">
+          <div class="cp-section-hdr">
             <span class="section-label">Additional Credentials</span>
             <h2 id="other-heading">HACCP &amp; UNGM Registration</h2>
             <div class="divider"></div>
@@ -204,7 +204,7 @@ const CertificationsPage = {
           <div class="cp-cred-grid">
 
             <!-- HACCP -->
-            <article class="cp-cred-card reveal reveal-delay-1" data-cert-id="haccp" role="button" tabindex="0" aria-label="HACCP – tap for details">
+            <article class="cp-cred-card" data-cert-id="haccp" role="button" tabindex="0" aria-label="HACCP – tap for details">
               <div class="cp-cred-card__icon cp-cred-icon--teal">
                 <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="3"/><path d="M20 32l9 9 15-18" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </div>
@@ -224,7 +224,7 @@ const CertificationsPage = {
             </article>
 
             <!-- UNGM -->
-            <article class="cp-cred-card reveal reveal-delay-2" data-cert-id="ungm" role="button" tabindex="0" aria-label="UNGM – tap for details">
+            <article class="cp-cred-card" data-cert-id="ungm" role="button" tabindex="0" aria-label="UNGM – tap for details">
               <div class="cp-cred-card__icon cp-cred-icon--navy">
                 <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="3"/><ellipse cx="32" cy="32" rx="12" ry="28" stroke="currentColor" stroke-width="2.5"/><line x1="4" y1="32" x2="60" y2="32" stroke="currentColor" stroke-width="2.5"/><path d="M8 19Q32 13 56 19" stroke="currentColor" stroke-width="2" fill="none"/><path d="M8 45Q32 51 56 45" stroke="currentColor" stroke-width="2" fill="none"/></svg>
               </div>
@@ -250,7 +250,7 @@ const CertificationsPage = {
       <!-- ===== SCOPE ===== -->
       <section class="cp-scope" aria-labelledby="scope-heading">
         <div class="container">
-          <div class="cp-scope-inner reveal">
+          <div class="cp-scope-inner">
             <div class="cp-scope-text">
               <span class="section-label" style="color:rgba(255,255,255,0.5)">Certification Scope</span>
               <h2 id="scope-heading">What Our Certifications Cover</h2>
@@ -282,7 +282,7 @@ const CertificationsPage = {
       <!-- ===== COMPLIANCE NOTICE ===== -->
       <section class="cp-notice-section">
         <div class="container">
-          <div class="cp-notice reveal">
+          <div class="cp-notice">
             <svg viewBox="0 0 24 24" fill="none" class="cp-notice__icon" aria-hidden="true">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.5"/>
               <path d="M12 9v4M12 17h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
@@ -296,9 +296,9 @@ const CertificationsPage = {
       </section>
 
       <!-- ===== CTA ===== -->
-      <section class="cta-band" aria-labelledby="cert-cta-h">
+      <section class="cta-band cta-band--certifications" aria-labelledby="cert-cta-h">
         <div class="container">
-          <div class="cta-content reveal">
+          <div class="cta-content">
             <h2 id="cert-cta-h">Partner with a Certified, Compliant Organisation</h2>
             <p class="cta-intro">Our certifications are not badges — they are independently audited evidence of structured management systems, genuine accountability, and a commitment to quality and safety across every engagement.</p>
             <div class="cta-actions">
@@ -330,16 +330,6 @@ const CertificationsPage = {
     });
     container.appendChild(ld);
 
-    requestAnimationFrame(() => { this.initAnimations(); });
-  },
-
-  initAnimations() {
-    const els = document.querySelectorAll('.reveal');
-    const run = () => els.forEach(el => {
-      if (el.getBoundingClientRect().top < window.innerHeight - 80) el.classList.add('active');
-    });
-    window.addEventListener('scroll', run, { passive: true });
-    run();
   }
 };
 

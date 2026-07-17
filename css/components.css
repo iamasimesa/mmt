@@ -1609,6 +1609,101 @@
   border-radius: 4px;
 }
 
+/* ===== UNIVERSAL GRID CAROUSEL (services + industries, all viewports) ===== */
+.grid-carousel-wrap {
+  position: relative;
+}
+
+/* Combined-class selector wins over the plain .services-grid / .sectors-grid
+   grid layout regardless of source order or viewport, turning them into a
+   swipeable, scroll-snapped track at every breakpoint. */
+.services-grid.grid-carousel-track,
+.sectors-grid.grid-carousel-track {
+  display: flex;
+  grid-template-columns: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 0.5rem 0 1rem;
+}
+
+.services-grid.grid-carousel-track::-webkit-scrollbar,
+.sectors-grid.grid-carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.services-grid.grid-carousel-track > .service-card,
+.sectors-grid.grid-carousel-track > .sector-card {
+  flex: 0 0 clamp(260px, 30vw, 340px);
+  scroll-snap-align: start;
+}
+
+@media (max-width: 768px) {
+  .services-grid.grid-carousel-track > .service-card,
+  .sectors-grid.grid-carousel-track > .sector-card {
+    flex: 0 0 85%;
+    min-width: 280px;
+  }
+}
+
+.grid-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.grid-carousel-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #d7dee6;
+  background: #fff;
+  color: #0f5b8c;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.grid-carousel-btn:hover {
+  background: #0f5b8c;
+  color: #fff;
+  border-color: #0f5b8c;
+}
+
+.grid-carousel-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.grid-carousel-dots {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.grid-carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.grid-carousel-dot.active {
+  background: #122954;
+  width: 22px;
+  border-radius: 4px;
+}
+
 /* ===== FAQ SECTION ===== */
 .section-faq-home {
   padding: 6rem 0;

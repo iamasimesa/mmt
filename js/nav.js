@@ -11,7 +11,7 @@
   const hamburgerIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>`;
   const closeIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`;
 
-  let isMobileView = window.innerWidth <= 768;
+  let isMobileView = window.innerWidth <= 1700;
   let mobileHandlersAttached = false;
 
   // Update toggle button icon based on expanded state
@@ -31,7 +31,7 @@
       if (backdrop) backdrop.classList.add('active');
       navToggle.setAttribute('aria-expanded', 'true');
       updateToggleIcon(true);
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 1700) {
         bodyEl.style.overflow = 'hidden';
       }
     } else {
@@ -157,7 +157,7 @@
 
   // Handle window resize
   function handleResize() {
-    const newIsMobile = window.innerWidth <= 768;
+    const newIsMobile = window.innerWidth <= 1700;
     if (newIsMobile === isMobileView) return;
     
     isMobileView = newIsMobile;
@@ -240,7 +240,7 @@
     });
     
     // Initial setup
-    isMobileView = window.innerWidth <= 768;
+    isMobileView = window.innerWidth <= 1700;
     if (isMobileView) {
       attachMobileDropdownEvents();
     } else {
@@ -262,7 +262,7 @@
     // Orientation change reset
     window.addEventListener('orientationchange', () => {
       setTimeout(() => {
-        if (window.innerWidth > 768 && navMenu) navMenu.classList.remove('active');
+        if (window.innerWidth > 1700 && navMenu) navMenu.classList.remove('active');
         if (backdrop) backdrop.classList.remove('active');
         bodyEl.style.overflow = '';
         collapseAllMobileDropdowns();

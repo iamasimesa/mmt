@@ -144,6 +144,13 @@ function closeCertModal() {
   overlay.classList.remove('certm-open');
   overlay.setAttribute('aria-hidden', 'true');
   document.body.classList.remove('certm-active');
+  /* Reset scroll AFTER the next paint — removing overflow:hidden is a CSS change
+     that is pending until paint. Setting scrollTop synchronously has no effect
+     while the overflow state is still being resolved by the browser. */
+  requestAnimationFrame(() => {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  });
 }
 
 /* ── Bootstrap ──────────────────────────────────────────── */

@@ -10,8 +10,8 @@ const HomePage = {
       {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
-        "name": "MMT Alliance - Global Procurement & Logistics Partner",
-        "description": "End-to-end supply chain management for governments, UN agencies, NGOs, and humanitarian organisations. Global procurement, logistics, and emergency response across 50+ countries.",
+        "name": "MMT Alliance - Infrastructure, Procurement & Project Delivery Group",
+        "description": "Construction, engineering, procurement, logistics and advisory services for governments, development banks, United Nations agencies and private sector clients across Africa and beyond.",
         "url": "https://mmtalliance.com",
         "logo": "https://mmtalliance.com/assets/logo.jpg",
         "areaServed": {
@@ -26,32 +26,48 @@ const HomePage = {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Procurement & Strategic Sourcing",
-                "description": "Full sourcing lifecycle management with international procurement standards"
+                "name": "Construction & Infrastructure",
+                "description": "Roads, bridges, water infrastructure, buildings and civil works"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Supply Solutions",
-                "description": "Medical supplies, food, shelter materials, and custom-sourced goods"
+                "name": "Water & Utilities",
+                "description": "Water supply, boreholes, pipelines, sewerage and treatment systems"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Logistics & Delivery",
-                "description": "Air, sea, and land freight with customs clearance and last-mile delivery"
+                "name": "Procurement & Supply Chain",
+                "description": "Global sourcing, procurement, logistics and warehousing"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Emergency Response",
-                "description": "Rapid-deployment crisis supply operations activated within hours"
+                "name": "Project Management",
+                "description": "End-to-end project planning, delivery and supervision"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Engineering & Consultancy",
+                "description": "Design management, project planning, feasibility studies and technical advisory"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Humanitarian & Emergency Response",
+                "description": "UN, NGO and disaster response procurement and logistics"
               }
             }
           ]
@@ -78,16 +94,17 @@ const HomePage = {
   <div class="container hero-content">
     <div class="hero-label reveal">
       <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M6 10a4 4 0 0 1 8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="10" cy="10" r="1.5" fill="currentColor"/></svg>
-      <span>Trusted UN & Government Supply Partner</span>
+      <span>Infrastructure &bull; Procurement &bull; Project Delivery &bull; Advisory</span>
     </div>
-    
+
     <h1 class="hero-title reveal reveal-delay-1">
-      End-to-End Procurement, Sourcing,<br>
-      Supply and Delivery Partner
+      Building Infrastructure.<br>
+      Delivering Projects.<br>
+      Supplying the World.
     </h1>
-    
+
     <p class="hero-subtitle reveal reveal-delay-2">
-      Integrated solutions for governments, NGOs, and humanitarian operations worldwide.
+      MMT Alliance is an Australian-owned international infrastructure, procurement and project delivery group delivering construction, engineering, procurement, logistics and advisory services for governments, development banks, United Nations agencies and private sector clients across Africa and beyond.
     </p>
     
     <div class="hero-actions reveal reveal-delay-3">
@@ -107,40 +124,48 @@ const HomePage = {
     <div class="capabilities-list">
       <div class="capability-item reveal reveal-delay-1">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M12 3a9 9 0 0 1 0 18M3 12h18" stroke="currentColor" stroke-width="1.5"/>
-        </svg>
-        <span>Global Procurement</span>
-      </div>
-      
-      <div class="capability-item reveal reveal-delay-2">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="1.5"/>
-        </svg>
-        <span>Humanitarian Supply</span>
-      </div>
-      
-      <div class="capability-item reveal reveal-delay-3">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <rect x="2" y="7" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
           <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" stroke="currentColor" stroke-width="1.5"/>
         </svg>
-        <span>Infrastructure Support</span>
+        <span>Construction &amp; Infrastructure</span>
       </div>
-      
+
+      <div class="capability-item reveal reveal-delay-2">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        <span>Water &amp; Utilities</span>
+      </div>
+
+      <div class="capability-item reveal reveal-delay-3">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M12 3a9 9 0 0 1 0 18M3 12h18" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        <span>Procurement &amp; Supply Chain</span>
+      </div>
+
       <div class="capability-item reveal reveal-delay-4">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M9 11l3 3L22 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
         </svg>
-        <span>Medical & Relief</span>
+        <span>Project Management</span>
       </div>
-      
+
       <div class="capability-item reveal reveal-delay-5">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <rect x="1" y="3" width="15" height="13" rx="1" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M16 8h4l3 4v4h-7V8z" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M14.7 6.3a1 1 0 0 0 1.4 1.4l1.6-1.6a1 1 0 0 0-1.4-1.4l-1.6 1.6zM3 21l4.5-1.5L18 9l-3-3L4.5 16.5 3 21z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
         </svg>
-        <span>Logistics & Delivery</span>
+        <span>Engineering &amp; Consultancy</span>
+      </div>
+
+      <div class="capability-item reveal reveal-delay-6">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        <span>Humanitarian &amp; Emergency Response</span>
       </div>
     </div>
   </div>
@@ -336,28 +361,71 @@ const HomePage = {
         <div class="container">
           <div class="section-header section-header--center reveal">
             <span class="section-label">What We Do</span>
-            <h2 id="services-heading">Complete Supply Chain Management</h2>
+            <h2 id="services-heading">Six Core Service Lines</h2>
             <div class="divider"></div>
             <p class="section-intro">
-              We manage the entire supply chain process from sourcing to last-mile delivery 
-              so your mission never stalls.
+              From construction and water infrastructure through to procurement, project delivery,
+              engineering and humanitarian response — one partner, every delivery model.
             </p>
           </div>
-          
-          <div class="services-grid">
+
+          <div class="grid-carousel-wrap">
+          <div class="services-grid grid-carousel-track" id="services-carousel-track">
             <div class="service-card reveal reveal-delay-1">
               <div class="service-card-image">
-                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop" alt="Procurement and strategic sourcing services" loading="lazy" width="600" height="400">
+                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&h=400&fit=crop" alt="Roads, bridges and civil works construction" loading="lazy" width="600" height="400">
                 <div class="service-card-overlay"></div>
               </div>
               <div class="service-card-content">
-                <h3>Procurement &amp; Strategic Sourcing</h3>
-                <p>Rigorous supplier identification, tender management, vendor evaluation, and contract negotiation.</p>
+                <h3>Construction &amp; Infrastructure</h3>
+                <p>Roads, bridges, water infrastructure, buildings and civil works delivered end-to-end.</p>
                 <ul class="service-list">
-                  <li>Supplier identification</li>
-                  <li>Tender management</li>
-                  <li>Vendor evaluation</li>
-                  <li>Contract negotiation</li>
+                  <li>Roads &amp; bridges</li>
+                  <li>Buildings &amp; civil works</li>
+                  <li>Water infrastructure</li>
+                  <li>Earthworks &amp; drainage</li>
+                </ul>
+                <a href="/construction-infrastructure" class="service-card-link">
+                  Learn More
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="service-card reveal reveal-delay-2">
+              <div class="service-card-image">
+                <img src="https://images.unsplash.com/photo-1541675154750-0444c7d51e8e?w=600&h=400&fit=crop" alt="Water supply, boreholes and treatment systems" loading="lazy" width="600" height="400">
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <h3>Water &amp; Utilities</h3>
+                <p>Water supply, boreholes, pipelines, sewerage and treatment systems for communities and institutions.</p>
+                <ul class="service-list">
+                  <li>Boreholes &amp; pipelines</li>
+                  <li>Water treatment</li>
+                  <li>Sewerage systems</li>
+                  <li>Irrigation</li>
+                </ul>
+                <a href="/services#water" class="service-card-link">
+                  Learn More
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="service-card reveal reveal-delay-3">
+              <div class="service-card-image">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop" alt="Global sourcing, procurement and logistics" loading="lazy" width="600" height="400">
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <h3>Procurement &amp; Supply Chain</h3>
+                <p>Global sourcing, procurement, logistics and warehousing across 50+ countries.</p>
+                <ul class="service-list">
+                  <li>Strategic sourcing</li>
+                  <li>Tender &amp; vendor management</li>
+                  <li>Logistics &amp; warehousing</li>
+                  <li>Customs clearance</li>
                 </ul>
                 <a href="/services#procurement" class="service-card-link">
                   Learn More
@@ -365,79 +433,89 @@ const HomePage = {
                 </a>
               </div>
             </div>
-            
-            <div class="service-card reveal reveal-delay-2">
-              <div class="service-card-image">
-                <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&h=400&fit=crop" alt="Supply solutions for humanitarian organizations" loading="lazy" width="600" height="400">
-                <div class="service-card-overlay"></div>
-              </div>
-              <div class="service-card-content">
-                <h3>Supply Solutions</h3>
-                <p>Medical supplies, food, shelter materials, and custom-sourced goods delivered with precision.</p>
-                <ul class="service-list">
-                  <li>Medical supplies</li>
-                  <li>Food &amp; essential goods</li>
-                  <li>Shelter &amp; infrastructure</li>
-                  <li>Custom sourcing</li>
-                </ul>
-                <a href="/services#supply" class="service-card-link">
-                  Learn More
-                  <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-                </a>
-              </div>
-            </div>
-            
-            <div class="service-card reveal reveal-delay-3">
-              <div class="service-card-image">
-                <img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=600&h=400&fit=crop" alt="Logistics and delivery services worldwide" loading="lazy" width="600" height="400">
-                <div class="service-card-overlay"></div>
-              </div>
-              <div class="service-card-content">
-                <h3>Logistics &amp; Delivery</h3>
-                <p>Air, sea, and land freight with full customs clearance and assured last-mile delivery.</p>
-                <ul class="service-list">
-                  <li>Air / sea / land freight</li>
-                  <li>Warehousing</li>
-                  <li>Customs clearance</li>
-                  <li>Last-mile delivery</li>
-                </ul>
-                <a href="/services#logistics" class="service-card-link">
-                  Learn More
-                  <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-                </a>
-              </div>
-            </div>
-            
+
             <div class="service-card reveal reveal-delay-4">
               <div class="service-card-image">
-                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&h=400&fit=crop" alt="Emergency response and crisis supply operations" loading="lazy" width="600" height="400">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" alt="End-to-end project planning and delivery" loading="lazy" width="600" height="400">
                 <div class="service-card-overlay"></div>
               </div>
               <div class="service-card-content">
-                <h3>Emergency Response</h3>
-                <p>Rapid-deployment crisis supply operations activated within hours for critical humanitarian needs.</p>
+                <h3>Project Management</h3>
+                <p>End-to-end project planning, delivery and supervision from mobilisation to handover.</p>
+                <ul class="service-list">
+                  <li>Project lifecycle management</li>
+                  <li>Construction supervision</li>
+                  <li>Contract administration</li>
+                  <li>Programme delivery</li>
+                </ul>
+                <a href="/services#project-management" class="service-card-link">
+                  Learn More
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="service-card reveal reveal-delay-5">
+              <div class="service-card-image">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop" alt="Design management and technical advisory" loading="lazy" width="600" height="400">
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <h3>Engineering &amp; Consultancy</h3>
+                <p>Design management, project planning, feasibility studies and technical advisory.</p>
+                <ul class="service-list">
+                  <li>Design management</li>
+                  <li>Feasibility studies</li>
+                  <li>Technical advisory</li>
+                  <li>Project planning</li>
+                </ul>
+                <a href="/advisory" class="service-card-link">
+                  Learn More
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="service-card reveal reveal-delay-6">
+              <div class="service-card-image">
+                <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&h=400&fit=crop" alt="UN, NGO and disaster response procurement" loading="lazy" width="600" height="400">
+                <div class="service-card-overlay"></div>
+              </div>
+              <div class="service-card-content">
+                <h3>Humanitarian &amp; Emergency Response</h3>
+                <p>UN, NGO and disaster response procurement and logistics activated within hours.</p>
                 <ul class="service-list">
                   <li>Rapid deployment</li>
                   <li>Crisis supply operations</li>
                   <li>24/7 coordination</li>
                   <li>Pre-positioned stock</li>
                 </ul>
-                <a href="/services#emergency" class="service-card-link">
+                <a href="/services#humanitarian" class="service-card-link">
                   Learn More
                   <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
                 </a>
               </div>
             </div>
           </div>
-          
-          <!-- Mobile Carousel Indicators -->
-          <div class="carousel-indicators">
-            <span class="indicator active" data-index="0"></span>
-            <span class="indicator" data-index="1"></span>
-            <span class="indicator" data-index="2"></span>
-            <span class="indicator" data-index="3"></span>
           </div>
-          
+
+          <div class="grid-carousel-controls" id="services-carousel-controls">
+            <button class="grid-carousel-btn" id="services-carousel-prev" aria-label="Previous service">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="grid-carousel-dots" id="services-carousel-dots">
+              <button class="grid-carousel-dot active" data-index="0" aria-label="Service 1"></button>
+              <button class="grid-carousel-dot" data-index="1" aria-label="Service 2"></button>
+              <button class="grid-carousel-dot" data-index="2" aria-label="Service 3"></button>
+              <button class="grid-carousel-dot" data-index="3" aria-label="Service 4"></button>
+              <button class="grid-carousel-dot" data-index="4" aria-label="Service 5"></button>
+              <button class="grid-carousel-dot" data-index="5" aria-label="Service 6"></button>
+            </div>
+            <button class="grid-carousel-btn" id="services-carousel-next" aria-label="Next service">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+
         </div>
       </section>
 
@@ -449,12 +527,13 @@ const HomePage = {
             <!-- LEFT: CONTENT -->
             <div class="why-content-col">
               <div class="why-header reveal">
-                <span class="section-label">Why MMT-Alliance</span>
-                <h2 id="why-heading">Built to Win Contracts.<br>Designed to Deliver.</h2>
+                <span class="section-label">Why MMT Alliance</span>
+                <h2 id="why-heading">One Partner.<br>Multiple Delivery Models.</h2>
                 <div class="divider"></div>
                 <p class="why-intro">
-                  Institutional credibility meets operational agility — backed by MMT Care, 
-                  delivering multi-million-dollar government-funded programs across multiple states.
+                  Institutional credibility meets operational agility — backed by MMT Care,
+                  spanning engineering, procurement, construction, project finance, advisory,
+                  supply chain and logistics under a single accountable group.
                 </p>
               </div>
 
@@ -462,40 +541,40 @@ const HomePage = {
                 <div class="why-feature-item reveal reveal-delay-1">
                   <div class="feature-number">01</div>
                   <div class="feature-content">
-                    <h4>End-to-end supply chain management</h4>
-                    <p>From requirements analysis through to last-mile delivery, we manage every stage under one accountable partner.</p>
+                    <h4>Engineering &amp; Construction</h4>
+                    <p>In-house design management and civil works delivery across roads, water infrastructure, buildings and bridges.</p>
                   </div>
                 </div>
 
                 <div class="why-feature-item reveal reveal-delay-2">
                   <div class="feature-number">02</div>
                   <div class="feature-content">
-                    <h4>Proven governance & compliance frameworks</h4>
-                    <p>Structured procurement processes, full audit trails, and compliance with international procurement standards.</p>
+                    <h4>Procurement &amp; Supply Chain</h4>
+                    <p>Global sourcing, tender management, and warehousing with proven governance and compliance frameworks.</p>
                   </div>
                 </div>
 
                 <div class="why-feature-item reveal reveal-delay-3">
                   <div class="feature-number">03</div>
                   <div class="feature-content">
-                    <h4>Backed by established group (MMT Care)</h4>
-                    <p>MMT Care's track record in multi-million-dollar government programmes gives us institutional credibility.</p>
+                    <h4>Project Finance &amp; Advisory</h4>
+                    <p>Financial structuring, feasibility studies, and donor-funded project support alongside delivery.</p>
                   </div>
                 </div>
 
                 <div class="why-feature-item reveal reveal-delay-4">
                   <div class="feature-number">04</div>
                   <div class="feature-content">
-                    <h4>Global sourcing capability in 50+ countries</h4>
-                    <p>International supplier networks enabling competitive sourcing for any product category across the globe.</p>
+                    <h4>Logistics in 50+ countries</h4>
+                    <p>International supplier and freight networks enabling delivery for any project, anywhere.</p>
                   </div>
                 </div>
 
                 <div class="why-feature-item reveal reveal-delay-5">
                   <div class="feature-number">05</div>
                   <div class="feature-content">
-                    <h4>Operations in complex & fragile environments</h4>
-                    <p>Proven capability to operate in conflict-affected, remote, or access-challenged environments.</p>
+                    <h4>Operations in complex &amp; fragile environments</h4>
+                    <p>Proven capability to deliver in conflict-affected, remote, or access-challenged environments.</p>
                   </div>
                 </div>
               </div>
@@ -512,7 +591,7 @@ const HomePage = {
                 <div class="why-panel-content">
                   <div class="panel-quote">
                     <svg viewBox="0 0 24 24" fill="currentColor" class="quote-icon"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-                    <p>"We manage the <strong>entire supply chain process</strong> — from sourcing to last-mile delivery — so mission-critical operations never pause."</p>
+                    <p>"We deliver the <strong>entire project lifecycle</strong> — from design and construction through to procurement and last-mile delivery — as one accountable partner."</p>
                   </div>
                   
                   <div class="panel-locations">
@@ -548,74 +627,112 @@ const HomePage = {
       <section class="section section-sectors-home" id="sectors" aria-labelledby="sectors-heading">
         <div class="container">
           <div class="section-header section-header--center reveal">
-            <span class="section-label">Sectors We Serve</span>
+            <span class="section-label">Industries We Serve</span>
             <h2 id="sectors-heading">We Understand Your World</h2>
             <div class="divider"></div>
             <p class="section-intro">
-              Deep sector expertise enables us to align with procurement standards, compliance 
-              requirements, and delivery timelines of each client environment.
+              Deep industry expertise enables us to align with technical standards, compliance
+              requirements, and delivery timelines across every environment we operate in.
             </p>
           </div>
-          
-          <div class="sectors-grid">
-            <a href="/sectors#governments" class="sector-card reveal reveal-delay-1">
+
+          <div class="grid-carousel-wrap">
+          <div class="sectors-grid grid-carousel-track" id="sectors-carousel-track">
+            <a href="/sectors#roads-transport" class="sector-card reveal reveal-delay-1">
+              <div class="sector-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20L10 4h4l6 16M7 15h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Roads &amp; Transport</h3>
+              <p>Road construction, rehabilitation and transport infrastructure across urban and rural networks.</p>
+              <span class="sector-card-link">
+                Learn more
+                <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </a>
+
+            <a href="/sectors#water-sanitation" class="sector-card reveal reveal-delay-2">
+              <div class="sector-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z" stroke="currentColor" stroke-width="1.5"/></svg>
+              </div>
+              <h3>Water &amp; Sanitation</h3>
+              <p>Boreholes, pipelines, treatment plants and sewerage systems for communities and institutions.</p>
+              <span class="sector-card-link">
+                Learn more
+                <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </a>
+
+            <a href="/sectors#government-infrastructure" class="sector-card reveal reveal-delay-3">
               <div class="sector-card-icon">
                 <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="9 22 9 12 15 12 15 22" stroke="currentColor" stroke-width="1.5"/></svg>
               </div>
-              <h3>Governments</h3>
-              <p>National and regional government procurement requiring full compliance and transparency.</p>
+              <h3>Government Infrastructure</h3>
+              <p>Public buildings, offices and civic infrastructure delivered to government standards.</p>
               <span class="sector-card-link">
                 Learn more
                 <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </span>
             </a>
-            
-            <a href="/sectors#un" class="sector-card reveal reveal-delay-2">
+
+            <a href="/sectors#healthcare" class="sector-card reveal reveal-delay-4">
               <div class="sector-card-icon">
-                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 3a9 9 0 0 1 0 18M3 12h18" stroke="currentColor" stroke-width="1.5"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
               </div>
-              <h3>United Nations</h3>
-              <p>UN agencies and multilateral bodies with rigorous vendor standards and global reach.</p>
+              <h3>Healthcare</h3>
+              <p>Hospital and clinic construction alongside medical supply and equipment procurement.</p>
               <span class="sector-card-link">
                 Learn more
                 <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </span>
             </a>
-            
-            <a href="/sectors#ngos" class="sector-card reveal reveal-delay-3">
+
+            <a href="/sectors#education" class="sector-card reveal reveal-delay-5">
               <div class="sector-card-icon">
-                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.5"/><circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="1.5"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3L2 8l10 5 10-5-10-5zM4 10v5c0 1 3 3 8 3s8-2 8-3v-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
               </div>
-              <h3>NGOs</h3>
-              <p>Non-governmental organisations requiring cost-effective, accountable field supply solutions.</p>
+              <h3>Education</h3>
+              <p>School construction and infrastructure supporting government and donor-funded education programmes.</p>
               <span class="sector-card-link">
                 Learn more
                 <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </span>
             </a>
-            
-            <a href="/sectors#humanitarian" class="sector-card reveal reveal-delay-4">
+
+            <a href="/sectors#humanitarian" class="sector-card reveal reveal-delay-6">
               <div class="sector-card-icon">
                 <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="1.5"/></svg>
               </div>
-              <h3>Humanitarian Relief</h3>
+              <h3>Humanitarian</h3>
               <p>Crisis-ready supply chains activated rapidly to deliver essential goods in disaster-affected regions.</p>
               <span class="sector-card-link">
                 Learn more
                 <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </span>
             </a>
-            
-            <a href="/sectors#infrastructure" class="sector-card reveal reveal-delay-5">
-              <div class="sector-card-icon">
-                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" stroke="currentColor" stroke-width="1.5"/></svg>
-              </div>
-              <h3>Infrastructure &amp; Development</h3>
-              <p>Development banks and project developers requiring complex, multi-year supply coordination.</p>
-              <span class="sector-card-link">
-                Learn more
-                <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </span>
+          </div>
+          </div>
+
+          <div class="grid-carousel-controls" id="sectors-carousel-controls">
+            <button class="grid-carousel-btn" id="sectors-carousel-prev" aria-label="Previous industry">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="grid-carousel-dots" id="sectors-carousel-dots">
+              <button class="grid-carousel-dot active" data-index="0" aria-label="Industry 1"></button>
+              <button class="grid-carousel-dot" data-index="1" aria-label="Industry 2"></button>
+              <button class="grid-carousel-dot" data-index="2" aria-label="Industry 3"></button>
+              <button class="grid-carousel-dot" data-index="3" aria-label="Industry 4"></button>
+              <button class="grid-carousel-dot" data-index="4" aria-label="Industry 5"></button>
+              <button class="grid-carousel-dot" data-index="5" aria-label="Industry 6"></button>
+            </div>
+            <button class="grid-carousel-btn" id="sectors-carousel-next" aria-label="Next industry">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+
+          <div class="sectors-view-all reveal" style="text-align:center;margin-top:2.5rem">
+            <a href="/sectors" class="btn btn-outline">
+              View All Industries
+              <svg viewBox="0 0 20 20" fill="none"><path d="M5 10h10M11 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
             </a>
           </div>
         </div>
@@ -1027,8 +1144,57 @@ const HomePage = {
 
     // Initialize all components
     HomePage.initCarousel();
+    HomePage.initGridCarousel('services-carousel-track', 'services-carousel-prev', 'services-carousel-next', 'services-carousel-dots', '.service-card');
+    HomePage.initGridCarousel('sectors-carousel-track', 'sectors-carousel-prev', 'sectors-carousel-next', 'sectors-carousel-dots', '.sector-card');
     HomePage.initAnimations();
     HomePage.initFAQ();
+  },
+
+  /* Generic scroll-snap carousel: works at every viewport width, driven by
+     native scrollTo rather than transform so it stays in sync with touch/trackpad swipes. */
+  initGridCarousel(trackId, prevId, nextId, dotsContainerId, cardSelector) {
+    const track = document.getElementById(trackId);
+    const prevBtn = document.getElementById(prevId);
+    const nextBtn = document.getElementById(nextId);
+    const dotsContainer = document.getElementById(dotsContainerId);
+    if (!track || !prevBtn || !nextBtn || !dotsContainer) return;
+
+    const cards = Array.from(track.querySelectorAll(cardSelector));
+    const dots = Array.from(dotsContainer.querySelectorAll('.grid-carousel-dot'));
+    if (!cards.length) return;
+
+    function cardStep() {
+      const style = getComputedStyle(track);
+      const gap = parseFloat(style.columnGap || style.gap || '0') || 0;
+      return cards[0].getBoundingClientRect().width + gap;
+    }
+
+    function nearestIndex() {
+      const step = cardStep();
+      return step ? Math.round(track.scrollLeft / step) : 0;
+    }
+
+    function updateDots() {
+      const idx = Math.min(cards.length - 1, Math.max(0, nearestIndex()));
+      dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+    }
+
+    function goTo(idx) {
+      const clamped = ((idx % cards.length) + cards.length) % cards.length;
+      track.scrollTo({ left: clamped * cardStep(), behavior: 'smooth' });
+    }
+
+    prevBtn.addEventListener('click', () => goTo(nearestIndex() - 1));
+    nextBtn.addEventListener('click', () => goTo(nearestIndex() + 1));
+    dots.forEach((d, i) => d.addEventListener('click', () => goTo(i)));
+
+    let scrollTimer;
+    track.addEventListener('scroll', () => {
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(updateDots, 100);
+    }, { passive: true });
+
+    window.addEventListener('resize', () => updateDots());
   },
 
   initCarousel() {
